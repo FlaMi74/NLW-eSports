@@ -6,14 +6,14 @@
 
 Projeto construído no evento do NLW eSports da RocketSeat.
 
-[Clique aqui para acessar](https://FlaMi74.github.io/NLW-eSports)
+[🔗 Clique aqui para acessar](https://FlaMi74.github.io/NLW-eSports)
 
-## Tecnologias 
+## 🛠 Tecnologias 
 
 - HTML
 - CSS
 - GIT e GITHUB
 
 
- fla.hrk@hotmail.com
+ 😃 fla.hrk@hotmail.com
 
