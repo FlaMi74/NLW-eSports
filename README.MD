@@ -14,6 +14,5 @@ Projeto construído no evento do NLW eSports da RocketSeat.
 - CSS
 - GIT e GITHUB
 
-
  😃 fla.hrk@hotmail.com
 
