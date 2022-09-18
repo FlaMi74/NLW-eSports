@@ -5,11 +5,12 @@
 }
 
 ul {
+    display: flex;
     list-style: none;
 }
 
 body {
-    background-image: url(./assets/bg.jpg);
+    background-image: url(./assets/Fundo.jpg);
     background-position: top center;
     background-size: 100% auto;
     background-repeat: no-repeat;
@@ -17,7 +18,7 @@ body {
 }
 
 body * {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     line-height: 160%;
 }
 
@@ -29,7 +30,7 @@ header {
 header div {
     width: 120px;
     margin: auto;
-    background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
+    background-image: linear-gradient(90deg, #C91842 0%, #5CC2E2 100%);
 
     border-radius: 50%;
 
@@ -59,16 +60,17 @@ main {
 
 section {
     color: white;
-    background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
+    background-image: linear-gradient(90deg, #C91842 0%, #5CC2E2 100%);
     padding-top: 4px;
-    border-radius: 10px;
+    
+
 }
 
 section div {
-    background-color: #2A2634;
+    background-color: #262629;
     padding: 32px;
     padding-top: 24px;
-    border-radius: 8px;
+    
 }
 
 section h2 {
@@ -97,14 +99,20 @@ section ul li:hover {
 }
 
 .games-list img {
-    width: 90px;
+    height: 150px;
+    width: 130px;
     border-radius: 8px;
+    border: 1px solid #555555;
+    flex: none;
+ 
 }
 
 .channel-list img {
-    border-radius: 50%; 
-    width: 70px;
-    border: 1px solid #443E54;
+    height: 150px;
+    width: 130px;
+    border-radius: 8px;
+    border: 1px solid #555555;
+    flex: none;
 }
 
 /* animation */
@@ -132,7 +140,7 @@ main section:nth-child(3) {
 @keyframes fromTop {
     from {
         opacity: 0;
-        transform: translateY(-30px)
+        transform: translateY(50px)
     }
 
     to {
@@ -144,7 +152,7 @@ main section:nth-child(3) {
 @keyframes fromBottom {
     from {
         opacity: 0;
-        transform: translateY(30px)
+        transform: translateY(50px)
     }
 
     to {
